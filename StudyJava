@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<script>
+	'use strict';
+let name=confirm("Are You Kris?" , '');
+if (name==true) {
+alert("Hello,Kris");
+}
+else {
+let newuser=prompt("Who are You?",'')
+alert (`Nice to meet you,${newuser}`)
+}
+</script>
